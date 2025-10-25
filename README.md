@@ -1,6 +1,5 @@
 # ClusterInventory
 Trabajo en equipo 2do Parcial - Bases de Datos II  
-Autor: **Ángel Damián Hernández Romo**
 
 ---
 
