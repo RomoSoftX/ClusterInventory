@@ -1,0 +1,64 @@
+## ==========================================
+## ClusterInventory - .NET 9 + Docker project
+## ==========================================
+
+# Compilados y resultados de build
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Tt]est[Rr]esult*/
+[Rr]elease*/
+[Dd]ebug*/
+
+# Archivos temporales de VS y Rider
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Publicación y publish outputs
+publish/
+app.publish/
+out/
+dist/
+
+# Archivos de Docker temporales
+**/[Dd]ockerfile*.user
+**/docker-compose*.override.yml
+.env
+.docker/
+.dockerignore
+
+# Configuración de contenedores generada
+docker-compose.vs.debug.*
+docker-compose.vs.release.*
+
+# Archivos de Mongo o bases locales
+*.db
+*.mdf
+*.ldf
+*.log
+dump/
+data/
+mongo_data/
+
+# Archivos de caché y sistema
+*.cache
+*.pdb
+*.tmp
+*.bak
+*.swp
+*.ncb
+*.opendb
+*.vscode/
+*.DS_Store
+Thumbs.db
+
+# Node modules (si algún día agregas frontend)
+node_modules/
+
+# Archivos de publicación o secretos
+secrets.json
+UserSecrets/
